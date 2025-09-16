@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Purchase Records</title>
+  </head>
+  <body>
+    <div id="filters">
+      <h3>Filter Purchases</h3>
+      <form>
+        <label>User: <input type="text" /></label>
+        <label>Date: <input type="date" /></label>
+        <button>Apply</button>
+      </form>
+    </div>
+
+    <div id="content">
+      <h2>All Purchases</h2>
+      <table id="purchases" border="1">
+        <tr>
+          <th>purchase_id</th><th>user</th><th>date</th><th>payment_method</th><th>status</th>
+          <th>item_id</th><th>item_name</th><th>price</th>
+        </tr>
+        <tr>
+          <td>1001</td><td>alice</td><td>2023-10-05</td><td>credit_card</td><td>completed</td>
+          <td>1</td><td>Keyboard</td><td>$49.99</td>
+        </tr>
+        <tr>
+          <td>1001</td><td>alice</td><td>2023-10-05</td><td>credit_card</td><td>completed</td>
+          <td>2</td><td>Mouse</td><td>$19.99</td>
+        </tr>
+        <tr>
+          <td>1002</td><td>bob</td><td>05/10/2023</td><td>paypal</td><td>pending</td>
+          <td>3</td><td>Monitor</td><td>€199.00</td>
+        </tr>
+        <tr>
+          <td>1002</td><td>bob</td><td>05/10/2023</td><td>paypal</td><td>pending</td>
+          <td>4</td><td>HDMI Cable</td><td>€15.00</td>
+        </tr>
+        <tr>
+          <td>1003</td><td>charlie</td><td>2023/09/30</td><td>bank_transfer</td><td>completed</td>
+          <td>5</td><td>Laptop Stand</td><td>$39.50</td>
+        </tr>
+        <tr>
+          <td>1004</td><td>diana</td><td>30-09-2023</td><td>credit_card</td><td>completed</td>
+          <td>6</td><td>Desk Lamp</td><td>£25.00</td>
+        </tr>
+        <tr>
+          <td>1004</td><td>diana</td><td>30-09-2023</td><td>credit_card</td><td>completed</td>
+          <td>7</td><td>Notebook</td><td>£5.50</td>
+        </tr>
+        <tr>
+          <td>1005</td><td>eva</td><td>2023-09-28</td><td>paypal</td><td>failed</td>
+          <td>8</td><td>USB Hub</td><td>$12.00</td>
+        </tr>
+        <tr>
+          <td>1005</td><td>eva</td><td>2023-09-28</td><td>paypal</td><td>failed</td>
+          <td>9</td><td>External HDD</td><td>$85.99</td>
+        </tr>
+        <tr>
+          <td>1005</td><td>eva</td><td>2023-09-28</td><td>paypal</td><td>failed</td>
+          <td>10</td><td>USB Cable</td><td>$3.99</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="ads">
+      <p>Special offer: Buy 2 Monitors, get 1 free!</p>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Example Corp</p>
+    </footer>
+  </body>
+</html>
