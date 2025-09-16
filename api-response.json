@@ -1,0 +1,102 @@
+[
+  {
+    "purchase_id": 1001,
+    "user": "alice",
+    "date": "2023-10-05",
+    "payment_method": "credit_card",
+    "status": "completed",
+    "item_id": 1,
+    "item_name": "Keyboard",
+    "price": "$49.99"
+  },
+  {
+    "purchase_id": 1001,
+    "user": "alice",
+    "date": "2023-10-05",
+    "payment_method": "credit_card",
+    "status": "completed",
+    "item_id": 2,
+    "item_name": "Mouse",
+    "price": "$19.99"
+  },
+  {
+    "purchase_id": 1002,
+    "user": "bob",
+    "date": "05/10/2023",
+    "payment_method": "paypal",
+    "status": "pending",
+    "item_id": 3,
+    "item_name": "Monitor",
+    "price": "€199.00"
+  },
+  {
+    "purchase_id": 1002,
+    "user": "bob",
+    "date": "05/10/2023",
+    "payment_method": "paypal",
+    "status": "pending",
+    "item_id": 4,
+    "item_name": "HDMI Cable",
+    "price": "€15.00"
+  },
+  {
+    "purchase_id": 1003,
+    "user": "charlie",
+    "date": "2023/09/30",
+    "payment_method": "bank_transfer",
+    "status": "completed",
+    "item_id": 5,
+    "item_name": "Laptop Stand",
+    "price": "$39.50"
+  },
+  {
+    "purchase_id": 1004,
+    "user": "diana",
+    "date": "30-09-2023",
+    "payment_method": "credit_card",
+    "status": "completed",
+    "item_id": 6,
+    "item_name": "Desk Lamp",
+    "price": "£25.00"
+  },
+  {
+    "purchase_id": 1004,
+    "user": "diana",
+    "date": "30-09-2023",
+    "payment_method": "credit_card",
+    "status": "completed",
+    "item_id": 7,
+    "item_name": "Notebook",
+    "price": "£5.50"
+  },
+  {
+    "purchase_id": 1005,
+    "user": "eva",
+    "date": "2023-09-28",
+    "payment_method": "paypal",
+    "status": "failed",
+    "item_id": 8,
+    "item_name": "USB Hub",
+    "price": "$12.00"
+  },
+  {
+    "purchase_id": 1005,
+    "user": "eva",
+    "date": "2023-09-28",
+    "payment_method": "paypal",
+    "status": "failed",
+    "item_id": 9,
+    "item_name": "External HDD",
+    "price": "$85.99"
+  },
+  {
+    "purchase_id": 1005,
+    "user": "eva",
+    "date": "2023-09-28",
+    "payment_method": "paypal",
+    "status": "failed",
+    "item_id": 10,
+    "item_name": "USB Cable",
+    "price": "$3.99"
+  }
+]
